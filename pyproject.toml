@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "advent-of-code-2024"
+version = "0.1.0"
+description = "My (hopefully working) submissions to advent of code 2024."
+authors = ["LuigiCerone <luigicerone96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
