@@ -81,7 +81,7 @@ def run_2(input_positions: list[Robot], n_rows, n_cols) -> int:
 
         if find_sequence(map_as_list, n_rows, n_cols, 10):
             draw(robots_positions, n_rows, n_cols)
-            return second
+            return second + 1
 
 
 def draw(input_positions: list[Robot], n_rows, n_cols):

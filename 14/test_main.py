@@ -20,4 +20,4 @@ def test_run_1_input_file_ok(given_input_file):
 def test_run_2_input_file_ok(given_input_file):
     seconds_required = run_2(given_input_file, N_ROWS, N_COLS)
 
-    assert seconds_required == 8158
+    assert seconds_required == 8159
