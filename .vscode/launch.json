@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "cwd": "${workspaceRoot}/13",
+            "cwd": "${workspaceRoot}/17",
             "args": [
                 "${command:pickArgs}"
             ]
